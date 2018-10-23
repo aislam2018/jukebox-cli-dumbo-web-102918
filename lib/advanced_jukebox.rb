@@ -47,6 +47,7 @@ def play(my_songs)
   puts "Please enter a song name:"
   input = gets.chomp 
   
+  
 end
 
 def exit_jukebox
