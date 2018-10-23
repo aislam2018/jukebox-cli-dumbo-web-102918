@@ -47,7 +47,8 @@ def play(my_songs)
   puts "Please enter a song name:"
   input = gets.chomp 
   if my_songs.key?(input)
-    open <file path>
+   puts "Now playing #{input}"
+    system 'open ' << my_songs[input]
   else 
    puts "Invalid input, please try again" 
  end
